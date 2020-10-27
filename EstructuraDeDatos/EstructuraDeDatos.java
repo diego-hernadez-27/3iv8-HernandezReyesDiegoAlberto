@@ -10,7 +10,7 @@ class EstructuraDeDatos{
         char respuesta, letra;
         String binario;
         double c, f, k, r;
-        float solucion;
+        float solucion, otra;
 
     System.out.println("3IV8 Herandez Reyes Diego Alberto");
 
@@ -668,6 +668,8 @@ class EstructuraDeDatos{
 
                 solucion = solucion * num1;
             }while(num1 != 1);
+
+
 
             System.out.println("El resultado de la multiplicacion es: "+solucion);
 
