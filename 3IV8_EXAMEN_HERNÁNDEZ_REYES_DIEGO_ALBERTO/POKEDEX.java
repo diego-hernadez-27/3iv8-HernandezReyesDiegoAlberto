@@ -87,9 +87,9 @@ class POKEDEX{
             System.out.println("1.- charmander, 2.- bulbasaor, 3.- squartle");
 
             do{
-            num1 = (int) (Math.random() * 2 + 1);
+            num1 = (int) (Math.random() * 3 + 1);
             
-            num2 = (int) (Math.random() * 2 + 1);
+            num2 = (int) (Math.random() * 3 + 1);
             }while (num1 != num2);
 
             if(num1 == 1){
