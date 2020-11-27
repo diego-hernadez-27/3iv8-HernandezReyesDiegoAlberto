@@ -1,5 +1,7 @@
+//Importadno librerias
 import java.util.*;
 
+//La clase padre y el encapsulamiento de datos
 public class Persona{
 
     Scanner escaner = new Scanner(System.in);

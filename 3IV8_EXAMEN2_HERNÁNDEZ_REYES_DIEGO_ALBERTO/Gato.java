@@ -1,6 +1,8 @@
+//Importando librerias
 import java.util.*;
 import java.io.IOException;
 
+//El juego basicamente dcon todos sus metodos
 public class Gato extends Persona{
 
     Scanner escaner = new Scanner(System.in);
@@ -10,7 +12,6 @@ public class Gato extends Persona{
     Jugador1 ju1 = new Jugador1();
     Jugador2 ju2 = new Jugador2();
     
-
     public void Imprimir_Posiciones() {
         int pos = 1;
         if (jugadorJugando == 'X'){
@@ -180,6 +181,7 @@ public class Gato extends Persona{
         ju2.mostrarJugador2();
     }
 
+    //Metodo que contola todo el juego
     public void El_Juego() throws IOException{
         Scanner escaner = new Scanner(System.in);
 
